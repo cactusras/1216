@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title></title>
+    </head>
+    <body>
+        <script>
+            var input1;
+            var input2;
+            input1=Number(window.prompt("input a number1"));
+            input2=Number(window.prompt("input a number2"));
+            if(input1>input2){
+                document.body.style.backgroundColor="lightblue";
+                document.write(input1+">"+input2);
+            }else if(input2>input1){
+                document.body.style.backgroundColor="lightgreen";
+                document.write(input2+">"+input1);
+            }else{
+                document.body.style.backgroundColor="lightyellow";
+                document.write(input1+"="+input2);
+            }
+        </script>
+    </body>
+</html>
